@@ -18,4 +18,4 @@ Email: fathimathul.shoukkathali@msds.christuniversity.in
 
 |Sl.no|Date|File name|Topic|Link|
 |:----:|:----:|:---:|:----:|:----:|
-|1.|06-12-23|CAC1|Portfolio.|<a href="[Lab 01.ipynb](https://github.com/FathimathulSusnaAli/MScDSA_23122014_Fathimathul_SusnaShoukkathAli_WebDevelopment.git)https://github.com/FathimathulSusnaAli/MScDSA_23122014_Fathimathul_SusnaShoukkathAli_WebDevelopment.git"> CAC1.ipynb</a>|   
+|1.|06-12-23|CAC1|Portfolio.|<a href="https://github.com/FathimathulSusnaAli/MScDSA_23122014_Fathimathul_SusnaShoukkathAli_WebDevelopment.git"> CAC1.ipynb</a>|   
