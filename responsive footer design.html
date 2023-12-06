@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive footer design codepen</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=EsFX1407MEKYuBGvS3FSGyXieF-WFgV4yjds-PRUzrTyoA5fUpQus-AWyotobdwlXldnV6b38yGj_zv71rcG9QPNbBAGeJHnRhI_2naZPcH7ms07FaVnAxSVJ7IHK04NlGOfY5oZ7ymxj4rqcxBdYQ8yFG7fIl7vPe-gIiMwBv0BAD47LhWkRWrgQgQs6KUE0feUpJaAMTryh6SO7FiKDU_T06tksyE3h7eF2cAJw0CAU-DVLzyFqN0TylnFRnK1THC5_CpEGSn_wph9oO9JBKG6WO9mlwWz9VxEheV2ljRp7j7gJ3fTVyhDIGR6ti79Ldt1741XXkou2Pn5cafmrAzNyamYuA5Y-p37DdQpRxsRDMc0BTU7o5mayYtL3bOOVkUUBTs3OolJH12QyAAP02zJyIP0QIvJn917YopTyFCUw83P3FaU0WNMm4FCV3N6IFokQ5SBtrHLxJW23Pg1bDX3LXSpqPHmbWWefUswjMyEQhdw2DLeC0ZZ_5EaqH_tbJsA6OWWaeHLTIH044w2DGNDJF3GS-uGTsISu4TNS6bAOGkp2ED-TQ34oUOBSR4tFABQMVJcwnW9GCLvDmLe1fODV6Z6Ch0yr5nxXrdYdqtMSsDnNCY0vaRgEv2dq1Wjnbq992mm-ROPqYRQeeB0WcOByrOcon4l3Wi98vD3gxcrCmQq2v2KzqYQ801TN45NwBT7n6VE9TTosHccFV9CDByEWVvv9ftKyWoWUv_fSXEHdtuKmCYDEvCf5rzhQ1lsnuNabBx3f3oLJBWNEXVNDeJnRy66wnlzEi27LNSlCZsGBrGX9p-SJ3M9-6iCoT5RbpRFDhclOTobdvTcYwoDo-5o-7lG368GvkPpSzIUy7pacWaLntWhsBe3X5sjU9CGtl4wDk5rrkuGSI7bscEU9UHieswOviEbSAGFa-Hj_xqR1Ee1bJ398ZXs0pEzgfWUldzZnUE_gZkWpy1veyNK4O9jJwdWPLnq9WR5GEQyAx5jWUwPEzrmE23UCG6dUK_joauiu80RFld84sAK-niOLNwQ8MoUZvNhGqRAq_BGnuUUWCqw-5UYbUK0Ocu1pfNFXhYnDkaySGNVXoB6EKSqIsrYOG3v1PcWDjOXw8w0YzF7T0lRPH3YwG4xkUaaezFHJl70YUTb4dRTsBg-FoHJfMa3bBzYPoWElYqGwvLS44Q6678fyRxe5zTX_sKNAhIXL5sQoywHdI_K48obDA7XE1VuKSzFRJ1_6J3edUX2pxv7SCyVGa10lrw24fYTjM47aMIybpVtqNioq05aZz2hMaiGSh0Ua_9cf3xNsoocepNw0hUFzDEc0X-5KJZuvYce8OF6bnmlSyIbHhIw7p1G_flv7gFLA5T7tD32oISNXgTfGzhTkU3D2w14Pjhz8MQKK48PVJswmHXptxre-cMCyHnJ495bI1fapejUxnKX-UHzvHW59vVloD2JqDvdzIGieCR8rpRhESYr8GAqHmM3qILOvK6L-ToIwoS7Vk6daS8HcaGLqxjUyQmnTpm2h7DGBiKMKw7TD6rzJvzpRVgDKM2zvaUK-o4KyLvDmxVIlBXStZ1ocniSpF6guScTwjIFY4DhXQ7jYWCi64gwzu1Kvarr5LneUhoDXxOQNqa04uVCe_4r5yYQAeLwMAXzemi-ishud3l49s5Ejaf--_mYaVVNDCeGUw_rqD5pH8SAwiVCLJw16ULDQWcT_STSMtwMsXkcrsQy2WxMh5V0HODEqbOPyUsHeDlQ9iJWe-tQxnB6dOnjTlfe0Z-xKzovLmCwHJpLlNoIU3RD_hGLnJnrvjJVGYMoC_2w7B-_kGMW6vQ" charset="UTF-8"></script><style media="screen">
+      *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fcfcfc;
+    font-family: sans-serif;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: #27bcda;
+}
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+}
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="footer-content">
+            <h3>Foolish Developer</h3>
+            <p>Raj Template is a blog website where you will find great tutorials on web design and development. Here each tutorial is beautifully described step by step with the required source code.</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">Foolish Developer</a>  </p>
+                    <div class="footer-menu">
+                      <ul class="f-menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Blog</a></li>
+                      </ul>
+                    </div>
+        </div>
+
+    </footer>
+</body>
+</html>
