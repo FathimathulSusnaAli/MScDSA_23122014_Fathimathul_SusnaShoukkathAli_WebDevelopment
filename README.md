@@ -5,7 +5,7 @@
 Name: Fathimathul Susna ShoukkathAli     
 Register Number: 23122014    
 Class: 2MscDs   
-Phone Number: 8089712621
+Phone Number: 8089712621           
 Email: fathimathul.shoukkathali@msds.christuniversity.in
 
 
